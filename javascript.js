@@ -2,6 +2,7 @@
 const text= document.querySelector(".sec-text");
 const textLoad =() =>{setTimeout(() =>{text.textContent ="Software Udvikler";}
 , 0);
+//tidlinje mellem de 2 nye elementer og intervaler//
 setTimeout(() => { text.textContent ="DJ";}, 4000);
 setTimeout(() =>{textContent = "Freelancer";},8000);}
 textLoad();
