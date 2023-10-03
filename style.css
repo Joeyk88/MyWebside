@@ -1,0 +1,17 @@
+.t-text{
+    padding-top: 200px;
+    margin-left: 60px;
+}
+.t-animate .text{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.t-animate .text.first-text{
+    color: #c61313;
+}
+ .t-animate{ 
+    left: calc(100% + 4px);
+    }
+
