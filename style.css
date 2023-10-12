@@ -67,9 +67,12 @@ nav ul li a:hover::after{
 /*Animate text*/
 .h2{
     display: flex;
+    flex-wrap: wrap;
+    
 }
 .t-text{
-    
+    display: left;
+    flex-wrap: wrap;
     padding-top: 200px;
     margin-left: 60px;
     position: relative;
