@@ -14,76 +14,79 @@
 <!-------hovedmenu-------->
 <div id="header">
     <div class="navbar">
-            <nav>
-                    <img src="IMG.jpg/Joey_logo_ kopi.jpg" class="logo">
-                    <div class="container-navbar" id="containerNavbar">
-                        
-                         <ul>  
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">OM MIG</a></li>
-                            <li><a href="#">Projekter</a></li>
-                            <li><a href="#">DJ & BOOKING</a></li>
-                            <li><a href="#">KONTAKT</a></li>
-                        </ul> 
-                    </div>
+        <nav>
+            <img src="/image/Joey_logo_ kopi.jpg" class="logo">
+            <div class="container-navbar" id="containerNavbar">
+               <ul>  
+                 <li><a href="#">HJEM</a></li>
+                 <li><a href="#">OM MIG</a></li>
+                 <li><a href="#">PORTEFØLJE</a></li>
+                 <li><a href="#">PROJEKTER</a></li>
+                 <li><a href="#">KONTAKT</a></li>
+                </ul> 
+            </div>
                     
-                </nav>
+        </nav>
                 <div class="header-text">
-                    
-                </div>
-            </div>
-
-    <!--Tekst og titler i animations effekt-->
-    <div class="t-text">
-            <h2>Hej, Jeg hedder Joey og er fra Danmark</h2>
-                <div class="t-animate">
-                    <span class="text first-text">Jeg er &nbsp;</span>
-                    <span class="text sec-text">Software Udvikler</span>
-                </div>
-            </div>
+                    <p>Webudvikler</p>
+                    <h1>Hej, Jeg hedder <span>Joey</span><br>
+                        og er fra Danmark
+                    </h1>
+        </div>
+    </div>
 </div> 
 <!----------OM MIG------------->    
-<div id="aboutme">
+<div id="about">
     <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="IMG.jpg/profile 2.JPG">
+            <img src="/image/profile 2.JPG">
           </div>  
             <div class="about-col-2">
               <h1 class="sub-title">OM MIG</h1> 
-              <p>Jeg har været igang som Software udvikler siden starten af 2023. Er en mand, 
+              <p>Jeg har været igang som Webudvikler og er færidg til oktober 2025. Er en mand, 
                 som er kreativ, fokuseret på at udfører de rette opgaver for kunden. 
                 Jeg er stadig i udvikling og lærer nye veje indenfor programmering.
+                Jeg vil gerne specialisere mig i nogle programmeringsprog og dygtiggøre mig indenfor frontend.
+                Men er også åben senere hen om at udvikle mig med backend verdenen. 
+                <br> 
                 Så her får i en lille bid af hvor langt jeg er kommet på denne rejse og opdatere løbende.
                 <br>
-                Jeg har også mulighed for at tilbyde en god fest som DJ med udstyr og lys til ca. 180 gæster.</p> 
+                 
                 
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">ERFARING</p>
-                    <p class="tab-links"onclick="opentab('jobs')">JOBS</p>
-                    <p class="tab-links"onclick="opentab('education')">UDDANNELSER</p>
+                    <p class="tab-links active-link" data-tab="skills">ERFARING</p>
+                    <p class="tab-links" data-tab="jobs">RELEVANTE JOBS</p>
+                    <p class="tab-links"data-tab="education">UDDANNELSER</p>
                 </div>
  <!--åben for content for de titler/tab-->
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>Web udvikling</span><br>Design hjemmeside portefølje/Frontend-Begynder Niveau</li>
+                        <li><span>Web udvikling</span><br>Design hjemmeside portefølje/Frontend-begynder niveau</li>
                         <li><span>Udvikle bookingsystmer</span><br>Begynder Niveau</li>
                         <li><span>App udvikling</span><br>Design - Begynder Niveau</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="jobs">
                     <ul>
-                        <li><span>September 2022 Oktober- 2022 - Web Koordinator</span><br>Udvikling af ny afdelig for F&H Group, Viborg</li>
-                        <li><span>Oktober 2018 – September 2022 Logistisk og forsendelses assistent</span><br>Ansvarlig for forsendelsen globalt for F&H Group, Viborg</li>
-                        <li><span>August 2016 – Oktober 2017 Forretningsudvikler ved Billy Booze Natklub København.</span><br>Allround konsulent til 2 virksomheder. Pasta Du Nord og Billy Booze Natklub.</li>
+                        <li><span>2022 - 2022 - Web Koordinator</span><br>Udvikling af ny afdelig for F&H Group, Viborg</li>
+                        <li><span>2018 – 2022 Logistisk og forsendelses assistent</span><br>Ansvarlig for forsendelsen globalt for F&H Group, Viborg</li>
+                        <li><span>2016 – 2017 Forretningsudvikler ved Billy Booze Natklub og Pasat Du Nord i København.</span><br>Allround konsulent til 2 virksomheder. 
+                                  Idesætter til social medier og kampagner. Hjalp med systemopsætning og brugerplatform til kasse og regnskab system.
+                                  Optimere struktur og booking af kunde events. <br>
+                                  Finde talenter til den nye organisation.</li>
+                        <li><span>2014-2015 - Kommerciel Projektleder</span><br>Udvikling af kontorpersonalet, salg og udviklingstræning af medarbejdere. Lavede lønninger, vagtplanlægning, location
+                                  planlægning, ansættelse og startprogram til nye ansatte. Jeg var med til at udvikle kontoret fra 11 sælgere til 50
+                                  sælgere på 10 måneder med in- og out-flow. Ansvar for drift, markedsføring og personaleledelse.</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
                     <ul>
-                        <li><span>2023 - 2027 Datatekniker med speciale i programmering</span><br>Forskelige kode sprog, database, front- og backend</li>
+                        <li><span>2024 – 2025 Web Developer</span><br>Frontend Webudvikler - HTML,CSS,SASS, JAVASCRIPT, JASON, REACT, WORDPRESS</li>
+                        <li><span>2023 - 2024 Datatekniker med speciale i programmering</span><br>Forskelige kode sprog, database, front- og backend på begynder niveau</li>
                         <li><span>2016 Bigum & Co – Skanderborg</span><br>Online Marketing 6 ugers kursus - Grundviden af Facebook annoncer, Google, Adwords, E-mail strategi.</li>
                         <li><span>2008 -2010 Salg og Indkøb - Dansk Supermarked, Aarhus</span><br>Alt læring i Indkøb og Salg</li>
-                        <li><span>2005 – 2007 Handelsskolen HG2 Viborg</span><br>Erhvervsøkonomi B, dansk C, engelsk B, projektledelse B, spansk E, marketing B</li>
+                        
                     </ul>
                 </div>
             </div>
@@ -100,11 +103,12 @@
                 <i class="fa-brands fa-html5"></i>
                 <i class="fa-brands fa-square-js"></i>
                 <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-react"></i>
                 <h2>Web Design</h2>
                 <p>Jeg er indtil videre klar til at sætte meget frontend op med CSS og HTML. 
                     Som jeg også viser på min hjemmeside her. 
                 </p>
-                <a href="#">Skal til at lærer</a>
+                <a href="#">Mere info</a>
             </div>
             <div>
                 <i class="fa-solid fa-database"></i>
@@ -112,7 +116,7 @@
                 <h2>Backend systemer</h2>
                 <p>Vi skal igang med H3 forløbet d. 23. oktober 2023. Og vil gerne lære C# og alt til at kunne blive Full Stack Developer.
                 </p>
-                <a href="#">Skal til at lærer</a>
+                <a href="#">Mere info</a>
             </div>
             <div>
                 <i class="fa-brands fa-swift"></i>
@@ -120,29 +124,24 @@
                 <h2>App Design</h2>
                 <p>Jeg vil gerne lære meget mere om apps og lærer at kode i flere sprog. Men blive god til C#.
                 </p>
-                <a href="#">Skal til at lærer</a>
+                <a href="#">Mere info</a>
             </div>
         </div>
     </div>
-
 </div>
 
-<!-----------------------DJ & BOOKING---------------------------------->
-<div id="djbooking">
+<div id="portfolio">
     <div class="container">
-        <h1 class="sub-title">DJ & BOOKING</h1>
-        <div class="booking-list">
-            <div>
-                <h2>DJ Joey K</h2>
-                <p>Jeg har været DJ siden 2016, hvor jeg har spille både til fødselsdage, bryllupper, firmafester og klubber.
-                    Jeg har musik til Lounge og cocktail på en en sommer dag og musik fra 70'erne og op til nutiden i orginale versioner,
-                    og remix udgiver. Jeg har udstyr og lys til 180 gæster og har bil til at kører rundt i Danmark.
-                </p>
+        <h1 class="sub-title">Projekter</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src=""> 
             </div>
         </div>
     </div>
-
 </div>
+
+
 
     <script src="script.js"></script>    
 </body>

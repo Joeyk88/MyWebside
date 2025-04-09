@@ -6,15 +6,15 @@
 }
 
 body{
-    background: #f7f7f7;
-    color: rgb(25, 27, 27);
+    background: #080808;
+    color: #fff;
 }
 
 /*--------------------------*HOME PAGE*------------------------*/
 #header{
     width: 100%;
-    height: 40vh;
-    background-image: url(IMG.jpg/Head\ picture.jpeg);
+    height: 100vh;
+    background-image: url();
     border-image-width: 80px ;
     background-size: cover;
     background-position: center;
@@ -25,7 +25,7 @@ body{
 }
 
 
-.navbar{
+.container{
     padding: 10px 10%;
 }
 nav{
@@ -43,7 +43,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #1b1919;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -62,45 +62,28 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100% ;
 
-}    
+}  
 
-/*Animate text*/
-.h2{
-    display: flex;
-    flex-wrap: wrap;
-    
+.header-text{
+    margin-top: 20%;
+    font-size: 20px;
 }
-.t-text{
-    display: left;
-    flex-wrap: wrap;
-    padding-top: 200px;
-    margin-left: 60px;
-    position: relative;
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
 }
-.t-animate .text{
-   
-    position: relative;
+.header-text h1 span{
     color: #ff004f;
-    font-size: 30px;
-    font-weight: 600;
 }
-.t-animate .text.first-text{
-    color: #090909;
-    
-}
- .t-animate{ 
-    
-    left: calc(100% + 4px);
-    position:flex;
-    }
+
 
 /*--------------------------*HOME PAGE*------------------------*/
 
 
 /*-------------------------- OM MIG ---------------------------*/
-#aboutme{
+#about{
     padding: 80px 0;
-    color: #050505;
+    color: #ababab;
 }
 .row{
     display: flex;
@@ -117,11 +100,12 @@ nav ul li a:hover::after{
 
 .about-col-2{
     flex-basis: 60%;
+    font-size: 18px;
 }
 .sub-title{
-   font-size: 30px;
+   font-size: 60px;
    font-weight: 600;
-   color: #090909;
+   color: #fff;
 }
 /*----Active link----*/
 .tab-titles{
@@ -130,7 +114,7 @@ nav ul li a:hover::after{
 }
 .tab-links{
     margin-right: 50px;
-    font-size:  18px;
+    font-size:  20px;
     font-weight:500;
     cursor: pointer;
     position: relative;
@@ -177,7 +161,7 @@ nav ul li a:hover::after{
    margin-top: 50px;
 }
 .service-list div{
-    background: #b4b1b1;
+    background: #262626;
     padding: 40px;
     font-size: 14px;
     font-weight: 300;
@@ -185,19 +169,20 @@ nav ul li a:hover::after{
     transition: background 0.5s, transform 0.5s;
 }
 .service-list div i{
-    font-size: 35px;
-    margin-bottom: 25px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-left: 24px;
 }
 .service-list div h2{
-    font-size: 25px;
-    font-weight: 400;
-    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 25px;
 }
 .service-list div a{
     text-decoration: none;
-    color: #111010;
-    font-size: 13px;
-    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 25px;
     display: inline-block;
 }
 .service-list div:hover{
@@ -205,17 +190,12 @@ nav ul li a:hover::after{
    transform: translateY(-10px); 
 }
 
-
-
-
-/*--------------------------- DJ & BOOKING ----------------------*/
-#djbooking{
-    padding: 30px 0;
+#portfolio{
+    padding: 50px 0;
+    
 }
-.booking-list{
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   grid-area: 40px;
-   margin-top: 50px;
-}
+
+
+
+
 
