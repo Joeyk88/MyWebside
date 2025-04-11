@@ -1,200 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/web" href="/image/Joey_logo_ kopi.jpg">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/image/Joey_logo_ kopi.jpg" type="image/webp" />
     <title>Joey Kolding Kristensen</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/bb1f627b02.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
-<!-------hovedmenu-------->
-<div id="header">
-    <div class="navbar">
-        <nav>
-            <img src="/image/Joey_logo_ kopi.jpg" class="logo">
-            <div class="container-navbar" id="containerNavbar">
-               <ul>  
-                 <li><a href="#">HJEM</a></li>
-                 <li><a href="#">OM MIG</a></li>
-                 <li><a href="#">PORTEFØLJE</a></li>
-                 <li><a href="#">PROJEKTER</a></li>
-                 <li><a href="#">KONTAKT</a></li>
-                </ul> 
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar" aria-label="Hovedmenu">
+            <div class="logo-container">
+                <img src="/image/Joey_logo_ kopi.jpg" alt="Joey Logo" class="logo" />
             </div>
-                    
+
+            <button class="menu-toggle" id="burgerBtn" aria-label="Åbn menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">HJEM</a></li>
+                <li><a href="#about">OM MIG</a></li>
+                <li><a href="#portfolio">PORTEFØLJE</a></li>
+                <li><a href="#services">PROJEKTER</a></li>
+                <li><a href="#contact">KONTAKT</a></li>
+            </ul>
         </nav>
-                <div class="header-text">
-                    <p>Webudvikler</p>
-                    <h1>Hej, Jeg hedder <span>Joey</span><br>
-                        og er fra Danmark
-                    </h1>
+
+        <div class="header-text">
+            <p class="sec-text">Web udvikler</p>
+            <h1>Hej, jeg hedder <span>Joey</span><br />og er fra Danmark</h1>
         </div>
-    </div>
-</div> 
-<!----------OM MIG------------->    
-<div id="about">
-    <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="/image/profile 2.JPG">
-          </div>  
-            <div class="about-col-2">
-              <h1 class="sub-title">OM MIG</h1> 
-              <p>Jeg har været igang som Webudvikler og er færidg til oktober 2025. Er en mand, 
-                som er kreativ, fokuseret på at udfører de rette opgaver for kunden. 
-                Jeg er stadig i udvikling og lærer nye veje indenfor programmering.
-                Jeg vil gerne specialisere mig i nogle programmeringsprog og dygtiggøre mig indenfor frontend.
-                Men er også åben senere hen om at udvikle mig med backend verdenen. 
-                <br> 
-                Så her får i en lille bid af hvor langt jeg er kommet på denne rejse og opdatere løbende.
-                <br>
-                 
-                
-                <div class="tab-titles">
-                    <p class="tab-links active-link" data-tab="skills">ERFARING</p>
-                    <p class="tab-links" data-tab="jobs">RELEVANTE JOBS</p>
-                    <p class="tab-links"data-tab="education">UDDANNELSER</p>
+
+    </header>
+
+    <!-- Om mig -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/image/profile 2.JPG" alt="Billede af Joey" />
                 </div>
- <!--åben for content for de titler/tab-->
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Web udvikling</span><br>Design hjemmeside portefølje/Frontend-begynder niveau</li>
-                        <li><span>Udvikle bookingsystmer</span><br>Begynder Niveau</li>
-                        <li><span>App udvikling</span><br>Design - Begynder Niveau</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="jobs">
-                    <ul>
-                        <li><span>2022 - 2022 - Web Koordinator</span><br>Udvikling af ny afdelig for F&H Group, Viborg</li>
-                        <li><span>2018 – 2022 Logistisk og forsendelses assistent</span><br>Ansvarlig for forsendelsen globalt for F&H Group, Viborg</li>
-                        <li><span>2016 – 2017 Forretningsudvikler ved Billy Booze Natklub og Pasat Du Nord i København.</span><br>Allround konsulent til 2 virksomheder. 
-                                  Idesætter til social medier og kampagner. Hjalp med systemopsætning og brugerplatform til kasse og regnskab system.
-                                  Optimere struktur og booking af kunde events. <br>
-                                  Finde talenter til den nye organisation.</li>
-                        <li><span>2014-2015 - Kommerciel Projektleder</span><br>Udvikling af kontorpersonalet, salg og udviklingstræning af medarbejdere. Lavede lønninger, vagtplanlægning, location
-                                  planlægning, ansættelse og startprogram til nye ansatte. Jeg var med til at udvikle kontoret fra 11 sælgere til 50
-                                  sælgere på 10 måneder med in- og out-flow. Ansvar for drift, markedsføring og personaleledelse.</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2024 – 2025 Web Developer</span><br>Frontend Webudvikler - HTML,CSS,SASS, JAVASCRIPT, JASON, REACT, WORDPRESS</li>
-                        <li><span>2023 - 2024 Datatekniker med speciale i programmering</span><br>Forskelige kode sprog, database, front- og backend på begynder niveau</li>
-                        <li><span>2016 Bigum & Co – Skanderborg</span><br>Online Marketing 6 ugers kursus - Grundviden af Facebook annoncer, Google, Adwords, E-mail strategi.</li>
-                        <li><span>2008 -2010 Salg og Indkøb - Dansk Supermarked, Aarhus</span><br>Alt læring i Indkøb og Salg</li>
-                        
-                    </ul>
+                <div class="about-col-2">
+                    <h2 class="sub-title">OM MIG</h2>
+                    <p>
+                        Jeg har været i gang som Webudvikler og er færdig til oktober 2025. Jeg er en mand, der er
+                        kreativ og fokuseret på at udføre de rette opgaver for kunden. Jeg er stadig i udvikling og
+                        lærer nye veje indenfor programmering.
+                    </p>
+                    <p>
+                        Mit mål er at specialisere mig i frontend og måske også backend på sigt. Her får du en bid af
+                        min rejse – jeg opdaterer løbende.
+                    </p>
+
+                    <div class="tab-titles">
+                        <button class="tab-links active-link" data-tab="skills">ERFARING</button>
+                        <button class="tab-links" data-tab="jobs">RELEVANTE JOBS</button>
+                        <button class="tab-links" data-tab="education">UDDANNELSER</button>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web udvikling</span><br />Frontend portefølje – Begynder niveau</li>
+                            <li><span>Bookingsystemer</span><br />Begynder niveau</li>
+                            <li><span>App udvikling</span><br />Design – Begynder niveau</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="jobs">
+                        <!-- Her kan vi senere forbedre datoformat og struktur -->
+                        <ul>
+                            <li><span>2022 - Web Koordinator</span><br />F&H Group, Viborg</li>
+                            <li><span>2018 – 2022</span><br />Logistik & forsendelse, F&H Group</li>
+                            <li><span>2016 – 2017</span><br />Billy Booze og Pasat Du Nord – Forretningsudvikler</li>
+                            <li><span>2014 – 2015</span><br />Kommerciel projektleder – Udvikling og ledelse</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 – 2025</span><br />Frontend Webudvikling</li>
+                            <li><span>2023 – 2024</span><br />Datatekniker – Programmering</li>
+                            <li><span>2016</span><br />Bigum & Co – Online Marketing</li>
+                            <li><span>2008 – 2010</span><br />Dansk Supermarked – Salg & Indkøb</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-----------------------Færdigheder---------------------------------->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">Færdigheder</h1>
-        <div class="service-list">
-            <div>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-square-js"></i>
-                <i class="fa-brands fa-bootstrap"></i>
-                <i class="fa-brands fa-react"></i>
-                <h2>Web Design</h2>
-                <p>Jeg er indtil videre klar til at sætte meget frontend op med CSS og HTML. 
-                    Som jeg også viser på min hjemmeside her. 
-                </p>
-                <a href="#">Mere info</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-database"></i>
-                <i class="fa-brands fa-mdb"></i>
-                <h2>Backend systemer</h2>
-                <p>Vi skal igang med H3 forløbet d. 23. oktober 2023. 
-                   Og vil gerne lære C# og alt til at kunne blive Full Stack Developer.
-                </p>
-                <a href="#">Mere info</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-swift"></i>
-                <i class="fa-brands fa-java"></i>
-                <h2>App Design</h2>
-                <p>Jeg vil gerne lære meget mere om apps 
-                   og lærer at kode i flere sprog. 
-                   Men blive god til C#.
-                </p>
-                <a href="#">Mere info</a>
+    </section>
+
+    <!-- Færdigheder -->
+    <section id="services">
+        <div class="container">
+            <h2 class="sub-title">Færdigheder</h2>
+            <div class="service-list">
+                <article>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <h3>Web Design</h3>
+                    <p>Jeg er godt i gang med HTML, CSS og frontend generelt – som du kan se her på min side.</p>
+                    <a href="#">Mere info</a>
+                </article>
+
+                <article>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-brands fa-mdb"></i>
+                    <h3>Backend systemer</h3>
+                    <p>Jeg starter på H3-forløbet og glæder mig til at dykke ned i C# og backend.</p>
+                    <a href="#">Mere info</a>
+                </article>
+
+                <article>
+                    <i class="fa-brands fa-swift"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <h3>App Design</h3>
+                    <p>Jeg vil lære mere om app-udvikling og fokusere på C# fremover.</p>
+                    <a href="#">Mere info</a>
+                </article>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">Projekter</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="/image/online-3461400_640.png">
-                <div class="layer">
-                    <h3>React projekt</h3>
-                    <p></p>
-                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
-                </div> 
-            </div>
-            <div class="work">
-                <img src="/image/reservation-bg.jpeg">
-                <div class="layer">
-                    <h3>Restaurant Georgia</h3>
-                    <br>
-                    <p>En af mine opbygget hjemmesider <br>til PC og mobil.</p>
-                    <a href=" https://joeyk88.github.io/RestaurantGeorgia/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
-                </div> 
-            </div>
-            <div class="work">
-                <img src="">
-                <div class="layer">
-                    <h3>Sass og Bootstrap projekt</h3>
-                    <p></p>
-                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
-                </div> 
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title"> Kontakt mig</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>joeyk666@hotmail.com</p>
-                <p><i class="fa-solid fa-square-phone"></i>60 11 65 82</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <!-- Projekter -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">Projekter</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/image/online-3461400_640.png" alt="React projekt" />
+                    <div class="layer">
+                        <h3>React projekt</h3>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
                 </div>
-                <a href="" download class="btn">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form>
-                    <input type="text" name="Name" placeholder="Navn" required>
-                    <input type="email" name="email" placeholder=" Email" required>
-                    <textarea name="Message" rows="6" placeholder="Besked"></textarea>
-                    <button type="submit" class="btn btn2">Send</button>
-                </form>
+
+                <div class="work">
+                    <img src="/image/reservation-bg.jpeg" alt="Restaurant Georgia" />
+                    <div class="layer">
+                        <h3>Restaurant Georgia</h3>
+                        <p>Hjemmeside til både PC og mobil</p>
+                        <a href="https://joeyk88.github.io/RestaurantGeorgia/" target="_blank"><i
+                                class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="" alt="Sass og Bootstrap projekt" />
+                    <div class="layer">
+                        <h3>Sass & Bootstrap projekt</h3>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright Joey. Made by <i class="fa-solid fa-web-awesome"></i> Joey Kolding</p>
-    </div>
-</div>
+    </section>
 
+    <!-- Kontakt -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="sub-title">Kontakt mig</h2>
+                    <p><i class="fa-solid fa-paper-plane"></i> joeyk666@hotmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 60 11 65 82</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" download class="btn">Download CV</a>
+                </div>
 
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Navn" required />
+                        <input type="email" name="email" placeholder="Email" required />
+                        <textarea name="message" rows="6" placeholder="Besked"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-    <script src="script.js"></script>    
+        <footer class="copyright">
+            <p>© Joey. Lavet af <i class="fa-solid fa-web-awesome"></i> Joey Kolding</p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
